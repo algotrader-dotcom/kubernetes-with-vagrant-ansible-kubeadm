@@ -44,3 +44,7 @@ browse from another host to url: http://k8s-master.local:32619
 
 http://master-ip:32697
 ```
+
+```
+This repo is credited to http://jeremievallee.com/2017/01/31/kubernetes-with-vagrant-ansible-kubeadm/
+```
