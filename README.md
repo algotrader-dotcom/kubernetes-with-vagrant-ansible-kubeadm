@@ -28,6 +28,7 @@ First SSH to Master, pls follow below guide:
 
 Try to access via the NodePort and it is ok for v1.4.4
 
+```
 $ kubectl describe services kubernetes-dashboard -n kube-system
 Name:           kubernetes-dashboard
 Namespace:      kube-system
@@ -42,3 +43,4 @@ Session Affinity:   None
 browse from another host to url: http://k8s-master.local:32619
 
 http://master-ip:32697
+```
