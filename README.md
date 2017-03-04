@@ -44,9 +44,9 @@ browse from another host to url: http://k8s-master.local:32619
 
 http://master-ip:32697
 ```
+OR
 
 ```
-OR
 ssh vagrant@master-ip -L 8001:127.0.0.1:8001 -N
 Then access http://localhost:8001/
 ```
