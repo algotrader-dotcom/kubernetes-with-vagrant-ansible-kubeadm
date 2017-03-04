@@ -46,5 +46,12 @@ http://master-ip:32697
 ```
 
 ```
+OR
+ssh vagrant@master-ip -L 8001:127.0.0.1:8001 -N
+Then access http://localhost:8001/
+```
+
+
+```
 This repo is credited to http://jeremievallee.com/2017/01/31/kubernetes-with-vagrant-ansible-kubeadm/
 ```
